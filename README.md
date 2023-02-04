@@ -1,6 +1,6 @@
 
 # MechaCar_Statistical_Analysis
-## Deliverable 1
+## Part 1
 ## Linear Regression to Predict MPG
 A Linear Regression was preformed to help predict which variables predict the mpg of MechaCar prototypes.
 ![image](https://user-images.githubusercontent.com/110268006/216786435-d2981445-3a01-4c91-9eeb-d94c96222b4d.png)
@@ -18,7 +18,7 @@ No, because the p value is 5.35e-11, which is smaller then the significance leve
 
 It does because the model has an r-squared value of 0.71 and this indicates that 71% of mpg predictions can be figured out through this model. 
 
-## Deliverable 2
+## Part 2
 
  ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 ### Total Summary
@@ -32,7 +32,7 @@ It does because the model has an r-squared value of 0.71 and this indicates that
 
 I have the screenshots for the total_summary and Lot_summary above and total_summary shows that the variance is 62.29, which does not exceed 100 punds per square inch. The lot_summary shows that lot1 and lot2 are below the 100 pounds per square with 0.98 and 7.47. However, lot3 does exceed the 100 pounds per sqaure because it's variance is 170.
 
-## Deliverable 3
+## Part 3
 
 ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 ## All Lots
@@ -46,11 +46,27 @@ The t-test above for Lot1 shows that we have a pvalue of 1 and so we do not reje
 
 ## Lot2
 ![image](https://user-images.githubusercontent.com/110268006/216788191-16ccb163-5d65-47f2-a0af-1d2319a095fd.png)
+
 The t-test above for Lot2 shows that we have a pvalue of .60 and so we do not reject the null hypothesis and there is no significant statistic difference between this lot and the population mean.
 
 ## Lot3
 ![image](https://user-images.githubusercontent.com/110268006/216788217-c6e5c180-b351-4d52-90ed-cb4a499dfabc.png)
+
 However, Lot3 has a p-value of 0.04 and this is less then 0.05 and this tells us that there is a significant statitistical difference between this lot and the population mean. 
 
+## Part 4: Design a Study Comparing the MechaCar to the Competition
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+## Study Design: MechaCar vs Competition.
+
+## Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+## What metric or metrics are you going to test?
+
+## What is the null hypothesis or alternative hypothesis?
+
+## What statistical test would you use to test the hypothesis? And why?
+
+## What data is needed to run the statistical test?
 
 
