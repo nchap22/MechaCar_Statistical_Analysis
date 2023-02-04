@@ -62,11 +62,20 @@ Using your knowledge of R, design a statistical study to compare performance of 
 ## Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 ## What metric or metrics are you going to test?
+1. Selling price
+2. MPG (Gas Mileage)
+3. Safety rating
+4. Maintenance Cost
+5. Resale Value
+6. monthly or annual ownership cost
 
 ## What is the null hypothesis or alternative hypothesis?
+Alternative Hypothesis (Ha): MechaCar does not perform better then competetion based on metrics. 
+Null Hypothesis (H0): MechaCar does perform better based on metrics. 
 
 ## What statistical test would you use to test the hypothesis? And why?
+I would run a linear regression or a multiple linear regression becuase they are used to predict a dependent variable on one or more independent variables. 
 
 ## What data is needed to run the statistical test?
-
+I would need to decided what my dependent and independent variables are
 
