@@ -71,6 +71,7 @@ Using your knowledge of R, design a statistical study to compare performance of 
 
 ## What is the null hypothesis or alternative hypothesis?
 Alternative Hypothesis (Ha): MechaCar does not perform better then competetion based on metrics. 
+
 Null Hypothesis (H0): MechaCar does perform better based on metrics. 
 
 ## What statistical test would you use to test the hypothesis? And why?
