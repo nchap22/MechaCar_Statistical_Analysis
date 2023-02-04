@@ -31,3 +31,26 @@ It does because the model has an r-squared value of 0.71 and this indicates that
 ## The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 I have the screenshots for the total_summary and Lot_summary above and total_summary shows that the variance is 62.29, which does not exceed 100 punds per square inch. The lot_summary shows that lot1 and lot2 are below the 100 pounds per square with 0.98 and 7.47. However, lot3 does exceed the 100 pounds per sqaure because it's variance is 170.
+
+## Deliverable 3
+
+## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+## All Lots
+![image](https://user-images.githubusercontent.com/110268006/216788255-8bf6a27a-c15e-4e20-92ec-7556dbed057a.png)
+The t-test above determines whether or not the PSI across all manufacturing lots is statistically different from the population mean. 
+The results show it has a p-vallue of .06 which is higher then the signifance level of .05 and so we would not be able to reject the null hypothesis and this tells us the mean of the three lots is not statistically different from the population mean. 
+
+## Lot1
+![image](https://user-images.githubusercontent.com/110268006/216788171-1e0aded6-ff13-439e-bbb9-c8e3d858f813.png)
+The t-test above for Lot1 shows that we have a pvalue of 1 and so we do not reject the null hypothesis and there is no significant statistic difference between this lot and the population mean.
+
+## Lot2
+![image](https://user-images.githubusercontent.com/110268006/216788191-16ccb163-5d65-47f2-a0af-1d2319a095fd.png)
+The t-test above for Lot2 shows that we have a pvalue of .60 and so we do not reject the null hypothesis and there is no significant statistic difference between this lot and the population mean.
+
+## Lot3
+![image](https://user-images.githubusercontent.com/110268006/216788217-c6e5c180-b351-4d52-90ed-cb4a499dfabc.png)
+However, Lot3 has a p-value of 0.04 and this is less then 0.05 and this tells us that there is a significant statitistical difference between this lot and the population mean. 
+
+
+
